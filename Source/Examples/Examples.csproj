@@ -70,11 +70,11 @@
   <ItemGroup>
     <Content Include="..\..\Dependencies\freetype2\2.5.5\msvc10\x64\freetype6.dll">
       <Link>x64\freetype6.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
     <Content Include="..\..\Dependencies\freetype2\2.5.5\msvc10\x86\freetype6.dll">
       <Link>x86\freetype6.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
     <Content Include="Fonts\Alegreya - SIL Open Font License.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
